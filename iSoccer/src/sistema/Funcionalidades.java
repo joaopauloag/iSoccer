@@ -9,12 +9,12 @@ import socios_torcedores.*;
 
 public class Funcionalidades implements ComportamentosDeRecursos {
 
-	private Sistema sistema;
+	private SingletonSistema sistema;
 	private Scanner entrada;	
 	
 	
 	public void iniciarSistema() {
-		sistema = new Sistema();
+		sistema = SingletonSistema.getInstance();
 		exibirMenu();
 	}
 	

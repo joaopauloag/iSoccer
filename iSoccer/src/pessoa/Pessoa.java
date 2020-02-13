@@ -11,6 +11,7 @@ public abstract class Pessoa {
 	
 	private Scanner entrada;
 	
+	// template method
 	final void acoesDePessoa() {
 		editarDados();
 		editarNome();
